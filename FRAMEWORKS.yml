@@ -247,19 +247,6 @@ go:
     website: violetear.org
     version: 7.0
     language: 1.12
-swift:
-  kitura:
-    website: kitura.io
-    version: "2.6"
-    language: 5.0
-  vapor:
-    website: vapor.codes
-    version: "3.3"
-    language:  5.0
-  perfect:
-    website: perfect.org
-    version: "3.1"
-    language: "4.2"
 rust:
   actix-web:
     website: actix.rs
@@ -281,15 +268,15 @@ rust:
     website: rocket.rs
     version: "0.4"
     language: "nightly"
-#elixir:
-#  phoenix:
-#    website: phoenixframework.org
-#    version: "1.3"
-#    language: "1.8"
-#  plug:
-#    github: elixir-plug/plug
-#    version: "1.6"
-#    language: "1.8"
+elixir:
+  phoenix:
+    website: phoenixframework.org
+    version: "1.3"
+    language: "1.8"
+  plug:
+    github: elixir-plug/plug
+    version: "1.6"
+    language: "1.8"
 cpp:
   evhtp:
     github: criticalstack/libevhtp
@@ -313,6 +300,10 @@ java:
   act:
     website: actframework.org
     version: "1.8"
+    language: "8"
+  springboot:
+    website: spring.io
+    version: "2.1.4"
     language: "8"
 c:
   kore:

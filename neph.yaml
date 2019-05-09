@@ -5,10 +5,10 @@ main:
     - nim
     - python
     - go
-    - swift
+    # - swift
     - rust
     - node
-    # - elixir
+    - elixir
     - cpp
     - scala
     - csharp
@@ -79,7 +79,7 @@ swift:
   depends_on:
     - vapor
     - perfect
-    - kitura
+      #    - kitura
 
 rust:
   depends_on:
@@ -124,6 +124,7 @@ csharp:
 java:
   depends_on:
     - act
+    - springboot
 
 php:
   depends_on:
@@ -487,6 +488,11 @@ act:
   commands:
     - docker build -t act .
   dir: java/act
+
+springboot:
+  commands:
+    - docker build -t springboot .
+  dir: java/spring
 
 slim:
   commands:
