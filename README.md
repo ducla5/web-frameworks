@@ -157,7 +157,8 @@ CPU Cores: 16
 | node (12.1) | [restify](http://restify.com) (8.2) | 10.57 ms | 11.27 ms | 12.08 ms | 20.76 ms | 128.38 ms | 3163.00 | 
 | python (3.7) | [fastapi](http://fastapi.tiangolo.com) (0.16) | 14.13 ms | 12.69 ms | 22.52 ms | 32.11 ms | 64.12 ms | 6340.67 | 
 | node (12.1) | [hapi](http://hapijs.com) (18.1) | 15.19 ms | 13.21 ms | 22.37 ms | 34.69 ms | 360.08 ms | 11972.67 | 
-| python (3.7) | [aiohttp](http://aiohttp.readthedocs.io) (3.5) | 15.98 ms | 16.12 ms | 22.39 ms | 26.63 ms | 59.02 ms | 4771.00 | 
+| python (3.7) | [aiohttp](http://aiohttp.readthedocs.io) (3.5) | 15.98 ms | 16.12 ms | 22.39 ms | 26.63 ms | 59.02 ms | 4771.00 |
+| java (8) | [springboot](http://spring.io) (2.1.4) | 14.74 ms | 16.21 ms | 20.77 ms | 27.63 ms | 220.13 ms | 7967.33 | 
 | python (3.7) | [molten](http://moltenframework.com) (0.7) | 18.80 ms | 17.20 ms | 27.79 ms | 42.28 ms | 303.00 ms | 9535.67 | 
 | python (3.7) | [bocadillo](http://bocadilloproject.github.io) (0.13) | 18.58 ms | 18.33 ms | 30.38 ms | 39.96 ms | 67.95 ms | 7994.67 | 
 | crystal (0.27) | [router.cr](http://github.com/tbrand/router.cr) (0.2) | 20.73 ms | 19.10 ms | 25.78 ms | 30.99 ms | 449.08 ms | 15191.67 | 
@@ -250,6 +251,7 @@ CPU Cores: 16
 | ruby (2.6) | [rack-routing](http://github.com/georgeu2000/rack-routing) (0.0) | 72916.33 | 42.18 MB |
 | python (3.7) | [fastapi](http://fastapi.tiangolo.com) (0.16) | 70541.00 | 152.36 MB |
 | node (12.1) | [hapi](http://hapijs.com) (18.1) | 69166.33 | 179.58 MB |
+| java (8) | [springboot](http://spring.io) (2.1.4) | 66323.33 | 113.59 MB |
 | python (3.7) | [aiohttp](http://aiohttp.readthedocs.io) (3.5) | 61392.00 | 139.23 MB |
 | python (3.7) | [molten](http://moltenframework.com) (0.7) | 53927.00 | 100.33 MB |
 | python (3.7) | [bocadillo](http://bocadilloproject.github.io) (0.13) | 52983.33 | 102.28 MB |
